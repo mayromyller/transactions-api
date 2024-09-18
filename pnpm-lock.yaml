@@ -24,6 +24,9 @@ importers:
       '@biomejs/biome':
         specifier: 1.9.1
         version: 1.9.1
+      '@types/node':
+        specifier: ^22.5.5
+        version: 22.5.5
       sucrase:
         specifier: ^3.35.0
         version: 3.35.0
