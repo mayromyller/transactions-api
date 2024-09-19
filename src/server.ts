@@ -10,12 +10,6 @@ app.register(transactionsRoutes, {
 	prefix: '/transactions'
 })
 
-app.get('/transactions', async () => {
-	const transactions = await knex('transactions').select('*')
-
-	return transactions
-})
-
 app
 	.listen({
 		port: env.PORT
