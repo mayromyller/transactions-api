@@ -7,3 +7,6 @@
 
 # Docs
 /@docs
+
+# Database
+database/*.db
